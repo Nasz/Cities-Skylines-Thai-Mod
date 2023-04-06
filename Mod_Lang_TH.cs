@@ -3,6 +3,13 @@ using System;
 using System.IO;
 using ColossalFramework.Plugins;
 using System.Reflection;
+using Mod_Lang_TH.GUI;
+using UnityEngine;
+using ColossalFramework.UI;
+using ColossalFramework.IO;
+using System.Xml.Linq;
+
+
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 // !
@@ -168,6 +175,7 @@ namespace Mod_Lang_TH
 					{
 						resetLocaleManager(locale_name);
 					}
+
 				}
 			}
 			catch (Exception e)
@@ -176,10 +184,10 @@ namespace Mod_Lang_TH
 			}
 		}
 
-		//============================================================
-		// Modding API
-		//============================================================
-		public string Name
+        //============================================================
+        // Modding API
+        //============================================================
+        public string Name
 		{
 			get
 			{
@@ -195,7 +203,12 @@ namespace Mod_Lang_TH
 
 		public string Description
 		{
-			get { return "Thai Localization v2"; }
+			get { return "Thai Localization Community Version"; }
 		}
-	}
+
+        public void OnSettingsUI (UIHelperBase helper)
+        {
+            ModOptions options = new ModOptions(helper, Name);
+        }
+    }
 }
