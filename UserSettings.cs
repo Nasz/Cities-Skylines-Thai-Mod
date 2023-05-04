@@ -10,7 +10,7 @@ namespace Mod_Lang_TH.GUI
 {
     public class ModOptions
     {
-        public static string URLDiscord { get; } = "https://discord.gg/QB8SFPN5";
+        public static string URLDiscord { get; } = "https://discord.gg/RGzX9YWBYS";
         public static string URLGithub { get; } = "https://github.com/Nasz/Cities-Skylines-Mod_Lang_TH";
 
         public ModOptions(UIHelperBase helper, string name)
@@ -30,14 +30,14 @@ namespace Mod_Lang_TH.GUI
                 UILabel credit = panel.AddUIComponent<UILabel>();
                 credit.name = "credit";
                 credit.textScale = 1.2f;
-                credit.text = "ร่วมมอบประสบการณ์โดย\r\n- Bammcool\r\n- N7C\r\n- NogginTime\r\n- Palm'sTime\r\n- Simscolony\r\n- Sornzilla";
+                credit.text = "แปลโดย\r\n- Bammcool\r\n- N7C\r\n- NogginTime\r\n- Palm'sTime\r\n- Simscolony\r\n- Sornzilla";
                 
                 group.AddSpace(20);
 
                 UILabel update_h = panel.AddUIComponent<UILabel>();
                 update_h.name = "update_label";
                 update_h.textScale = 1.4f;
-                update_h.text = "อัปเดทล่าสุด 6 เมษายน 2566 ";
+                update_h.text = "อัปเดทล่าสุด 4 พฤษภาคม 2566 ";
 
                 UILabel updated = panel.AddUIComponent<UILabel>();
                 updated.name = "update_text";
@@ -46,7 +46,7 @@ namespace Mod_Lang_TH.GUI
                 
                 group.AddSpace(20);
 
-                UIButton button = (UIButton)group.AddButton("ชุมชนของเราบน Discord ", () => OpenUrl(URLDiscord));
+                UIButton button = (UIButton)group.AddButton("การสนับสนุนบน Discord ", () => OpenUrl(URLDiscord));
                 button.autoSize = false;
                 button.textHorizontalAlignment = UIHorizontalAlignment.Center;
                 button.size = new Vector2(250, 40);
