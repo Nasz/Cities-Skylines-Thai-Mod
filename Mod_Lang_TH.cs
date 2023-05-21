@@ -197,7 +197,7 @@ namespace Mod_Lang_TH
                 }
                 initialized = true;
 
-				return "Thai localization Mod";
+				return "Thai Localization Mod 2";
 			}
 		}
 

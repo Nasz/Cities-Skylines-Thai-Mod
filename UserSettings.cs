@@ -10,7 +10,7 @@ namespace Mod_Lang_TH.GUI
 {
     public class ModOptions
     {
-        public static string URLDiscord { get; } = "https://discord.gg/RGzX9YWBYS";
+        public static string URLDiscord { get; } = "https://discord.gg/HSYPKfdJfr";
         public static string URLGithub { get; } = "https://github.com/Nasz/Cities-Skylines-Mod_Lang_TH";
 
         public ModOptions(UIHelperBase helper, string name)
@@ -23,7 +23,7 @@ namespace Mod_Lang_TH.GUI
                 UILabel header = panel.AddUIComponent<UILabel>();
                 header.name = "header";
                 header.textScale = 2f;
-                header.text = "ม็อดแปลภาษาไทยเวอร์ชั่นคอมมูนิตี้";
+                header.text = "ม็อดภาษาไทย 2 เวอร์ชั่นคอมมูนิตี้";
 
                 group.AddSpace(10);
 
@@ -37,12 +37,12 @@ namespace Mod_Lang_TH.GUI
                 UILabel update_h = panel.AddUIComponent<UILabel>();
                 update_h.name = "update_label";
                 update_h.textScale = 1.4f;
-                update_h.text = "อัปเดทล่าสุด 4 พฤษภาคม 2566 ";
+                update_h.text = "อัปเดตล่าสุด 23 พฤษภาคม 2566 ";
 
                 UILabel updated = panel.AddUIComponent<UILabel>();
                 updated.name = "update_text";
                 updated.textScale = 1.2f;
-                updated.text = "รายละเอียดของม็อด\r\n- แปลไทยครบทุกส่วน\r\n- ปรับแก้ไขคำให้ทันสมัย\r\n- เจี๊ยบเปอร์พูดไทยชัดขึ้น\r\n- อัปเดตภาษาไทยให้กับ Hub & Transport\r\n- อัปเดตภาษาไทยให้กับ Financial district\r\n- อัปเดตภาษาไทยให้กับ Plazas & promenades\r\n- อัปเดตภาษาไทยให้กับ DLC Airport\r\n- อื่น ๆ";
+                updated.text = "รายละเอียด\r\n- แปลไทยครบแล้ว 50 เนื้อหาดาวน์โหลด(DLC) สมบูรณ์ถึงเกมเวอร์ชัน 1.16.1\r\n- มีการปรับแก้ไขคำให้ทันสมัยอยู่เสมอ\r\n- ภาษาไทยสำหรับเกมเวอร์ชั่น 1.17.1 ยังอยู่ระหว่างการแปล";
                 
                 group.AddSpace(20);
 
