@@ -30,7 +30,7 @@ namespace Mod_Lang_TH.GUI
                 UILabel credit = panel.AddUIComponent<UILabel>();
                 credit.name = "credit";
                 credit.textScale = 1.2f;
-                credit.text = "แปลโดย\r\n- Bammcool\r\n- N7C\r\n- NogginTime\r\n- Palm'sTime\r\n- Simscolony\r\n- Sornzilla";
+                credit.text = "แปลโดย\r\n- Bammcool\r\n- N7C\r\n- NogginTime\r\n- PanlopPalms\r\n- Simscolony\r\n- Sornzilla";
                 
                 group.AddSpace(20);
 
