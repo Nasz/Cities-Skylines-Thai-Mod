@@ -37,12 +37,12 @@ namespace Mod_Lang_TH.GUI
                 UILabel update_h = panel.AddUIComponent<UILabel>();
                 update_h.name = "update_label";
                 update_h.textScale = 1.4f;
-                update_h.text = "อัปเดตล่าสุด 23 พฤษภาคม 2566 ";
+                update_h.text = "อัปเดตล่าสุด 25 พฤษภาคม 2566 ";
 
                 UILabel updated = panel.AddUIComponent<UILabel>();
                 updated.name = "update_text";
                 updated.textScale = 1.2f;
-                updated.text = "รายละเอียด\r\n- แปลไทยครบแล้ว 50 เนื้อหาดาวน์โหลด(DLC) สมบูรณ์ถึงเกมเวอร์ชัน 1.16.1\r\n- มีการปรับแก้ไขคำให้ทันสมัยอยู่เสมอ\r\n- ภาษาไทยสำหรับเกมเวอร์ชั่น 1.17.1 ยังอยู่ระหว่างการแปล";
+                updated.text = "รายละเอียด\r\n- แก้ปัญหาโหลดเกมค้างที่หน้าโหลดแผนที่\r\n- แปลไทยครบแล้ว 50 เนื้อหาดาวน์โหลด(DLC) สมบูรณ์ถึงเกมเวอร์ชัน 1.16.1\r\n- มีการปรับแก้ไขคำให้ทันสมัยอยู่เสมอ\r\n- ภาษาไทยสำหรับเกมเวอร์ชั่น 1.17.1 ยังอยู่ระหว่างการแปล";
                 
                 group.AddSpace(20);
 
