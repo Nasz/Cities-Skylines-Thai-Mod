@@ -1,6 +1,8 @@
 # Cities: Skylines Thai Localization Mod
+
 ม็อดภาษาไทยสำหรับเกม Cities: Skylines 
-![Screenshot 2023-04-01 02 22 31](https://user-images.githubusercontent.com/384751/229216738-e866bb95-594f-4250-a75c-f13e14b17530.png)
+
+![image](https://github.com/Nasz/Cities-Skylines-Mod_Lang_TH/assets/384751/4af976af-b2d1-4f23-a51d-d47f62341b66)
 
 สำหรับคนที่เล่นบน Steam ให้กด Subscribe ที่ [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2920706399) เวลามีอัปเดตจะได้ตัวสตีมจะได้ดาวน์โหลดไฟล์ใหม่ให้คุณอัตโนมัติ
 
