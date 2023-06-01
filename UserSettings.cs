@@ -21,8 +21,8 @@ namespace Mod_Lang_TH.GUI
                 UIPanel panel = ((UIHelper)group).self as UIPanel;
 
                 UILabel header = panel.AddUIComponent<UILabel>();
-                header.name = "header";
-                header.textScale = 2f;
+                header.name = "Description";
+                header.textScale = 1.2f;
                 header.text = "ม็อดภาษาไทย 2 เวอร์ชั่นคอมมูนิตี้";
 
                 group.AddSpace(10);

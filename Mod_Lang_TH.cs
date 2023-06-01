@@ -203,7 +203,7 @@ namespace Mod_Lang_TH
 
 		public string Description
 		{
-			get { return "Thai Localization Community Version"; }
+			get { return "ม็อดภาษาไทย 2 เวอร์ชันคอมมูนิตี้"; }
 		}
 
         public void OnSettingsUI (UIHelperBase helper)
