@@ -23,7 +23,7 @@ namespace Mod_Lang_TH.GUI
                 UILabel header = panel.AddUIComponent<UILabel>();
                 header.name = "Description";
                 header.textScale = 1.2f;
-                header.text = "ม็อดภาษาไทย 2 เวอร์ชั่นคอมมูนิตี้";
+                header.text = "ม็อดภาษาไทย 2 เวอร์ชันคอมมูนิตี้";
 
                 group.AddSpace(10);
 
@@ -37,12 +37,12 @@ namespace Mod_Lang_TH.GUI
                 UILabel update_h = panel.AddUIComponent<UILabel>();
                 update_h.name = "update_label";
                 update_h.textScale = 1.4f;
-                update_h.text = "อัปเดตล่าสุด 28 พ.ค. 2566, 14:39 น.";
+                update_h.text = "อัปเดตล่าสุด 13 มิ.ย. 2566, 20:35 น.";
 
                 UILabel updated = panel.AddUIComponent<UILabel>();
                 updated.name = "update_text";
                 updated.textScale = 1.2f;
-                updated.text = "รายละเอียด\r\n- แปลไทยถึงเกมเวอร์ชัน 1.17.0-f3\r\n- แก้ปัญหาโหลดเกมค้างที่หน้าโหลดแผนที่\r\n- แก้ปัญหาแจ้งเตือนข้อผิดพลาดการจัดรูปแบบตัวเลข\r\n- ปรับแต่งคำจากรุ่นก่อนหน้าให้ทันสมัย\r\n- ปรับแก้ไขบางจุดที่โดนเกมตัดคำ";
+                updated.text = "รายละเอียด\r\n- แปลไทยถึงเกมเวอร์ชัน 1.17.1-f2 สมบัติที่ซ่อนอยู่ของเจี๊ยบเปอร์\r\n- ปรับแต่งคำจากรุ่นก่อนหน้าให้ทันสมัย\r\n- ปรับแก้ไขบางจุดที่โดนเกมตัดคำ";
                 
                 group.AddSpace(20);
 
