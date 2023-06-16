@@ -37,7 +37,7 @@ namespace Mod_Lang_TH.GUI
                 UILabel update_h = panel.AddUIComponent<UILabel>();
                 update_h.name = "update_label";
                 update_h.textScale = 1.4f;
-                update_h.text = "อัปเดตล่าสุด 13 มิ.ย. 2566, 20:35 น.";
+                update_h.text = "อัปเดตล่าสุด 17 มิ.ย. 2566, 0:02 น.";
 
                 UILabel updated = panel.AddUIComponent<UILabel>();
                 updated.name = "update_text";
