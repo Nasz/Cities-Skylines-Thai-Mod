@@ -1,5 +1,7 @@
 # Cities: Skylines Thai Localization Mod
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/204b385aba904c21a46b071baf9bee87)](https://app.codacy.com/gh/Nasz/Cities-Skylines-Thai-Localization-Mod?utm_source=github.com&utm_medium=referral&utm_content=Nasz/Cities-Skylines-Thai-Localization-Mod&utm_campaign=Badge_Grade)
+
 ม็อดภาษาไทยสำหรับเกม Cities: Skylines 
 
 ![image](https://github.com/Nasz/Cities-Skylines-Mod_Lang_TH/assets/384751/4af976af-b2d1-4f23-a51d-d47f62341b66)
