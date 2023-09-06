@@ -12,9 +12,9 @@
 สำหรับคนที่เล่นบน EPIC ให้กด Download ที่ [Mod_Lang_TH.dll](https://github.com/Nasz/Cities-Skylines-Mod_Lang_TH/releases/latest) 
 
 วิธีติดตั้ง
- 1. สร้างโฟลเดอร์ชื่อ "Mod_Lang_TH" ขึ้นใน โฟลเดอร์เกม "Cities_Skylines\Files\Mods\"
- 2. นำไฟล์ Mod_Lang_TH.dll ไปวางใว้ในนั้น
- 3. เปิดเกม
+  1. สร้างโฟลเดอร์ชื่อ "Mod_Lang_TH" ขึ้นใน โฟลเดอร์เกม "Cities_Skylines\Files\Mods\"
+  2. นำไฟล์ "Mod_Lang_TH.dll" ไปวางใว้ในนั้น
+  3. เปิดเกม
 
 สำหรับผู้ที่ต้องการให้ตัวอักษรภาษาไทยแสดงผลแบบในภาพ 
 ให้ติดตั้ง Font Changer ของ neinnew ([Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2981354344)) ([Github](https://github.com/neinnew/FontChanger/releases/latest))
