@@ -2,6 +2,11 @@
 
 ม็อดภาษาไทยสำหรับเกม Cities: Skylines 
 
+![GitHub release](https://img.shields.io/github/v/release/Nasz/Cities-Skylines-Mod_Lang_TH?label=Release)
+[![GitHub all releases](https://img.shields.io/github/downloads/Nasz/Cities-Skylines-Mod_Lang_TH/total?label=Total%20Downloads)](https://github.com/Nasz/Cities-Skylines-Mod_Lang_TH/releases/latest)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/c0560866087240b3aa9daf0fa6037469)](https://app.codacy.com/gh/Nasz/Cities-Skylines-Thai-Localization-Mod/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Discord](https://img.shields.io/discord/1092697599447932928?label=Discord)](https://discord.gg/HSYPKfdJfr "Cities:Skylines Thai Localization Community")
+
 ![image](https://github.com/Nasz/Cities-Skylines-Mod_Lang_TH/assets/384751/4af976af-b2d1-4f23-a51d-d47f62341b66)
 
 แปลโดย 
