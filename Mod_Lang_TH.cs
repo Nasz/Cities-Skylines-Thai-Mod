@@ -22,7 +22,7 @@ namespace Mod_Lang_TH
 {
 	public class Mod_Lang_TH : IUserMod
 	{
-		private string locale_name = "th";
+		private readonly string locale_name = "th";
 
 		private bool initialized = false;
 
@@ -40,22 +40,20 @@ namespace Mod_Lang_TH
 		{
 			switch (Environment.OSVersion.Platform)
 			{
-			case PlatformID.Unix:
-				// Well, there are chances MacOSX is reported as Unix instead of MacOSX.
-				// Instead of platform check, we'll do a feature checks (Mac specific root folders)
-				if (Directory.Exists("/Applications")
-					& Directory.Exists("/System")
-					& Directory.Exists("/Users")
-					& Directory.Exists("/Volumes"))
+				case PlatformID.Unix:
+					// Well, there are chances MacOSX is reported as Unix instead of MacOSX.
+					// Instead of platform check, we'll do a feature checks (Mac specific root folders)
+					if (Directory.Exists("/Applications") && Directory.Exists("/System") && Directory.Exists("/Users") && Directory.Exists("/Volumes")){
+						return Platform.Mac;
+					}else{
+						return Platform.Linux;
+					}
+
+				case PlatformID.MacOSX:
 					return Platform.Mac;
-				else
-					return Platform.Linux;
 
-			case PlatformID.MacOSX:
-				return Platform.Mac;
-
-			default:
-				return Platform.Windows;
+				default:
+					return Platform.Windows;
 			}
 		}
 
@@ -65,25 +63,28 @@ namespace Mod_Lang_TH
 		private string getDestinationPath()
 		{
 			String dst_path = "";
-			#if (DEBUG)
+#if (DEBUG)
 			DebugOutputPanel.AddMessage(PluginManager.MessageType.Message, String.Format("OS Type: {0}", RunningPlatform().ToString()));
-			#endif
+#endif
 			switch (RunningPlatform())
 			{
-			case Platform.Windows:
-				dst_path = "Files\\Locale\\" + locale_name + ".locale";
-				break;
-			case Platform.Mac:
-				dst_path = "Cities.app/Contents/Resources/Files/Locale/" + locale_name + ".locale";
-				break;
-			case Platform.Linux:
-				dst_path = "Files/Locale/" + locale_name + ".locale";
-				break;
+				case Platform.Windows:
+					dst_path = "Files\\Locale\\" + locale_name + ".locale";
+					break;
+				case Platform.Mac:
+					dst_path = "Cities.app/Contents/Resources/Files/Locale/" + locale_name + ".locale";
+					break;
+				case Platform.Linux:
+					dst_path = "Files/Locale/" + locale_name + ".locale";
+					break;
+				default:
+					dst_path = "Files\\Locale\\" + locale_name + ".locale";
+					break;
 			}
 
-			#if (DEBUG)
+#if (DEBUG)
 			DebugOutputPanel.AddMessage(PluginManager.MessageType.Message, String.Format("Destination {0}", dst_path));
-			#endif
+#endif
 
 			return dst_path;
 		}
@@ -99,23 +100,23 @@ namespace Mod_Lang_TH
 			string[] locales = ColossalFramework.Globalization.LocaleManager.instance.supportedLocaleIDs;
 			for (int i = 0; i < locales.Length; i++)
 			{
-				#if (DEBUG)
+#if (DEBUG)
 				DebugOutputPanel.AddMessage(PluginManager.MessageType.Message, String.Format("Locale index: {0}, ID: {1}", i, locales[i]));
-				#endif
+#endif
 				if (locales[i].Equals(loc_name))
 				{
-					#if (DEBUG)
+#if (DEBUG)
 					DebugOutputPanel.AddMessage(PluginManager.MessageType.Message, String.Format("Find locale {0} at index: {1}", loc_name, i));
-					#endif
+#endif
 					ColossalFramework.Globalization.LocaleManager.instance.LoadLocaleByIndex(i);
 
 					//thanks to: https://github.com/Mesoptier/SkylineToolkit/commit/d33f0bae67662df25bdf8ee2170d95a6999c3721
 					ColossalFramework.SavedString lang_setting = new ColossalFramework.SavedString("localeID", "gameSettings");
-					#if (DEBUG)
+#if (DEBUG)
 					DebugOutputPanel.AddMessage(PluginManager.MessageType.Message, String.Format("Current Language Setting: {0}", lang_setting.value));
-					#endif
+#endif
 					lang_setting.value = locale_name;
-					ColossalFramework.GameSettings.SaveAll();                                
+					ColossalFramework.GameSettings.SaveAll();
 					break;
 				}
 			}
@@ -127,10 +128,10 @@ namespace Mod_Lang_TH
 		private void copyLocaleFile(String dst_path)
 		{
 			Assembly asm = Assembly.GetExecutingAssembly();
-			Stream src = asm.GetManifestResourceStream(asm.GetName().Name+"."+locale_name+".locale");
-			#if (DEBUG)
+			Stream src = asm.GetManifestResourceStream(asm.GetName().Name + "." + locale_name + ".locale");
+#if (DEBUG)
 			DebugOutputPanel.AddMessage(PluginManager.MessageType.Message, String.Format("File size: {0}", src.Length));
-			#endif
+#endif
 
 			FileStream dst = File.OpenWrite(dst_path);
 
@@ -142,10 +143,10 @@ namespace Mod_Lang_TH
 			}
 			dst.Close();
 			src.Close();
-	
-			#if (DEBUG)
+
+#if (DEBUG)
 			DebugOutputPanel.AddMessage(PluginManager.MessageType.Message, String.Format("File write to: {0}", Path.GetFullPath(dst.Name)));
-			#endif
+#endif
 		}
 
 		//============================================================
@@ -161,15 +162,15 @@ namespace Mod_Lang_TH
 				{
 					if (File.Exists(dst_path))
 					{
-                        //File.OpenWrite won't truncate file, so delete it first
-                        File.Delete(dst_path);
-						#if (DEBUG)
+						//File.OpenWrite won't truncate file, so delete it first
+						File.Delete(dst_path);
+#if (DEBUG)
 						DebugOutputPanel.AddMessage(PluginManager.MessageType.Message, "Locale file is found, user has already used this mod before.");
-						#endif
-                        initialized = true;
-                    }
+#endif
+						initialized = true;
+					}
 
-                    copyLocaleFile(dst_path);
+					copyLocaleFile(dst_path);
 
 					if (initialized == false)
 					{
@@ -184,18 +185,18 @@ namespace Mod_Lang_TH
 			}
 		}
 
-        //============================================================
-        // Modding API
-        //============================================================
-        public string Name
+		//============================================================
+		// Modding API
+		//============================================================
+		public string Name
 		{
 			get
 			{
-                if (!initialized)
-                {
-                    CopyLocaleAndReloadLocaleManager();
-                }
-                initialized = true;
+				if (!initialized)
+				{
+					CopyLocaleAndReloadLocaleManager();
+				}
+				initialized = true;
 
 				return "Thai Localization Mod 2";
 			}
@@ -206,9 +207,9 @@ namespace Mod_Lang_TH
 			get { return "ม็อดภาษาไทย 2 เวอร์ชันคอมมูนิตี้"; }
 		}
 
-        public void OnSettingsUI (UIHelperBase helper)
-        {
-            ModOptions options = new ModOptions(helper, Name);
-        }
-    }
+		public void OnSettingsUI(UIHelperBase helper)
+		{
+			ModOptions options = new ModOptions(helper, Name);
+		}
+	}
 }
