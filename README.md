@@ -33,21 +33,21 @@
 
 ## วิธีติดตั้ง (Install)
 สำหรับผู้ใช้งาน Steam Workshop ไม่ต้องทำขั้นตอนต่อไปนี้
-  1. สร้างโฟลเดอร์ชื่อ `"Mod_Lang_TH"` ขึ้นใน โฟลเดอร์ของเกม `"{SteamLibrary}\steamapps\common\Cities_Skylines\Files\Mods"` 
-  2. นำไฟล์ `"Mod_Lang_TH.dll"` ไปวางใว้ในนั้น
+  1. สร้างโฟลเดอร์ชื่อ `Mod_Lang_TH` ขึ้นใน โฟลเดอร์ของเกม `{SteamLibrary}\steamapps\common\Cities_Skylines\Files\Mods` 
+  2. นำไฟล์ `Mod_Lang_TH.dll` ไปวางใว้ในนั้น
   3. เปิดเกม `หากก่อนหน้านี้คุณยังไม่เคยลงม็อดภาษาไทยมาก่อน เกมจะเปลี่ยนเป็นภาษาไทยโดยอัตโนมัติ`
 
 ## วิธีถอนการติดตั้ง (Uninstall)
 สำหรับผู้ใช้งาน Steam Workshop ให้กด Unsubscribe ก่อนแล้วข้ามไปทำข้อ 2 เลย
-  1. ลบไฟล์ `"Mod_Lang_TH.dll"` ในโฟลเดอร์ `"{SteamLibrary}\steamapps\common\Cities_Skylines\Files\Mods"` ออก
-  2. ลบไฟล์ `"th.locale"` ในโฟลเดอร์ `"{SteamLibrary}\steamapps\common\Cities_Skylines\Files\Locale"` ออก
+  1. ลบไฟล์ `Mod_Lang_TH.dll` ในโฟลเดอร์ `{SteamLibrary}\steamapps\common\Cities_Skylines\Files\Mods` ออก
+  2. ลบไฟล์ `th.locale` ในโฟลเดอร์ `{SteamLibrary}\steamapps\common\Cities_Skylines\Files\Locale` ออก
 
 ## คำแนะนำเพิ่มเติม
 สำหรับผู้ที่ต้องการให้ตัวอักษรภาษาไทยแสดงผลแบบในภาพ 
 ให้ติดตั้ง Font Changer ของ neinnew ([Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2981354344)) ([Github](https://github.com/neinnew/FontChanger/releases/latest))
 
 สำหรับไฟล์ Font แนะนำให้ใช้ [Noto Sans Thai CS](https://github.com/Nasz/Cities-Skylines-Thai-Localization-Mod/releases/download/v1.16/NotoSansThaiCS-Regular.ttf) กับ [Sarabun CS](https://github.com/Nasz/Cities-Skylines-Thai-Localization-Mod/releases/download/v1.16/Sarabun-CS.ttf)
-สิ่งสำคัญคือ ตอนติดตั้งต้องฟอนต์คลิ๊กขวาแล้วเลือก Install to all user ด้วยนะครับ ไม่งั้นตัว Font Changer จะนำฟอนต์ไปใช้กับ Unity Engine ไม่ได้
+สิ่งสำคัญคือ ตอนติดตั้งต้องฟอนต์คลิ๊กขวาแล้วเลือก `Install to all user` ด้วยนะครับ ไม่งั้นตัว Font Changer จะนำฟอนต์ไปใช้กับ Unity Engine ไม่ได้
 
 ![image](https://user-images.githubusercontent.com/384751/230114452-8bbc7978-1ec9-4439-a744-be9fb5f44ba1.png)
 
