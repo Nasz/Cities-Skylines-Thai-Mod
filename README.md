@@ -18,26 +18,29 @@
 |---------------------|:-------------|:------------|:---------------|:------|
 | UI                  | 0(0%)        | 16863(100%) | 0(0%)          | 16863 |
 
-## แปลโดย 
-- [Bammcool](https://steamcommunity.com/id/bammcool2546)
-- [N7C](https://steamcommunity.com/id/n7c_th)
-- [NogginTime](https://steamcommunity.com/id/NogginNS)
-- [PanlopPalms](https://steamcommunity.com/id/armsplams)
-- [Simscolony](https://steamcommunity.com/id/animenagi)
-- [Sornzilla](https://steamcommunity.com/id/sornzillatte)
+## ดูแลโปรเจคโดย 
+  - [Bammcool](https://steamcommunity.com/id/bammcool2546)
+  - [N7C](https://steamcommunity.com/id/n7c_th)
+
+#### ที่ปรึกษา
+  - [Bell](https://steamcommunity.com/id/bellraksit/)
+  - [NogginTime](https://steamcommunity.com/id/NogginNS)
+  - [PanlopPalms](https://steamcommunity.com/id/armsplams)
+  - [Simscolony](https://steamcommunity.com/id/animenagi)
+  - [Sornzilla](https://steamcommunity.com/id/sornzillatte)
 
 ## ดาวน์โหลด
 สำหรับคนที่เล่นบน Steam ให้กด Subscribe ที่ [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2920706399) เวลาม็อดอัปเดตตัวสตีมจะทำการอัปเดตไฟล์ม็อดใหม่ให้คุณอัตโนมัติ
 
 สำหรับคนที่เล่นบน EPIC ให้ดาวน์โหลดไฟล์ [Mod_Lang_TH.dll](https://github.com/Nasz/Cities-Skylines-Mod_Lang_TH/releases/latest) ไปติดตั้งเอง
 
-## วิธีติดตั้ง (Install)
+#### วิธีติดตั้ง (Install)
 สำหรับผู้ใช้งาน Steam Workshop ไม่ต้องทำขั้นตอนต่อไปนี้
   1. สร้างโฟลเดอร์ชื่อ `Mod_Lang_TH` ขึ้นใน โฟลเดอร์ของเกม `{SteamLibrary}\steamapps\common\Cities_Skylines\Files\Mods` 
   2. นำไฟล์ `Mod_Lang_TH.dll` ไปวางใว้ในนั้น
   3. เปิดเกม `หากก่อนหน้านี้คุณยังไม่เคยลงม็อดภาษาไทยมาก่อน เกมจะเปลี่ยนเป็นภาษาไทยโดยอัตโนมัติ`
 
-## วิธีถอนการติดตั้ง (Uninstall)
+#### วิธีถอนการติดตั้ง (Uninstall)
 สำหรับผู้ใช้งาน Steam Workshop ให้กด Unsubscribe ก่อนแล้วข้ามไปทำข้อ 2 เลย
   1. ลบไฟล์ `Mod_Lang_TH.dll` ในโฟลเดอร์ `{SteamLibrary}\steamapps\common\Cities_Skylines\Files\Mods` ออก
   2. ลบไฟล์ `th.locale` ในโฟลเดอร์ `{SteamLibrary}\steamapps\common\Cities_Skylines\Files\Locale` ออก
@@ -54,9 +57,13 @@
 ขอให้สนุกกับการเล่นเกม Cities: Skylines 
 
 ## ขอขอบคุณ
-+ Cities: Skylines: [Steam](https://store.steampowered.com/app/255710/)
+  + Cities: Skylines: [Steam](https://store.steampowered.com/app/255710/)
+  + Facebook Group [Cities: Skylines Thailand](https://www.facebook.com/groups/CitiesSkylinesThailand)
+  + Facebook Fanpage [Cities: Skylines Thailand](https://www.facebook.com/CSGameTH)
+  + Discord Community [Cities: Skylines Thailand](https://discord.gg/Cjg95ABZ8m)
 
-## Special Thank for Tools
-- [sunny00123](https://github.com/sunny00123)
-- [ccpz](https://github.com/ccpz)
-- [mzch](https://github.com/mzch)
+#### Special Thank for Tools
+  - [Daniël Mantione](https://steamcommunity.com/profiles/76561198074517378)
+  - [sunny00123](https://github.com/sunny00123)
+  - [Yi-Ta Chiang](https://github.com/ccpz)
+  - [Koichi MATSUMOTO](https://github.com/mzch)
