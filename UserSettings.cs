@@ -23,26 +23,26 @@ namespace Mod_Lang_TH.GUI
                 UILabel header = panel.AddUIComponent<UILabel>();
                 header.name = "Description";
                 header.textScale = 1.2f;
-                header.text = "ม็อดภาษาไทย 2 เวอร์ชันคอมมูนิตี้";
+                header.text = "ม็อดภาษาไทยเวอร์ชันคอมมูนิตี้";
 
                 group.AddSpace(10);
 
                 UILabel credit = panel.AddUIComponent<UILabel>();
                 credit.name = "credit";
                 credit.textScale = 1.2f;
-                credit.text = "แปลโดย\r\n- Bammcool\r\n- N7C\r\n- NogginTime\r\n- PanlopPalms\r\n- Simscolony\r\n- Sornzilla";
+                credit.text = "ดูแลโปรเจคโดย\r\n  - Bammcool\r\n  - N7C\r\n\r\nที่ปรึกษา\r\n  - Bell\r\n  - NogginTime\r\n  - PanlopPalms\r\n  - Simscolony\r\n  - Sornzilla";
                 
                 group.AddSpace(20);
 
                 UILabel update_h = panel.AddUIComponent<UILabel>();
                 update_h.name = "update_label";
                 update_h.textScale = 1.4f;
-                update_h.text = "อัปเดตล่าสุด 17 มิ.ย. 2566, 0:02 น.";
+                update_h.text = "อัปเดตล่าสุด 15 กันยายน 2566, 19:49 น.";
 
                 UILabel updated = panel.AddUIComponent<UILabel>();
                 updated.name = "update_text";
                 updated.textScale = 1.2f;
-                updated.text = "รายละเอียด\r\n- แปลไทยถึงเกมเวอร์ชัน 1.17.1-f2 สมบัติที่ซ่อนอยู่ของเจี๊ยบเปอร์\r\n- ปรับแต่งคำจากรุ่นก่อนหน้าให้ทันสมัย\r\n- ปรับแก้ไขบางจุดที่โดนเกมตัดคำ";
+                updated.text = "รายละเอียด\r\n- แปลไทยถึงเกมเวอร์ชัน 1.17.1-f4 ออกล่าสมบัติไปกับเจี๊ยบเปอร์\r\n- ปรับแต่งคำจากรุ่นก่อนหน้าให้ทันสมัย\r\n- ปรับแก้ไขบางจุดที่โดนเกมตัดคำ";
                 
                 group.AddSpace(20);
 

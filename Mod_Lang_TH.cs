@@ -198,13 +198,13 @@ namespace Mod_Lang_TH
 				}
 				initialized = true;
 
-				return "Thai Localization Mod 2";
+				return "Thai Community Localization Mod";
 			}
 		}
 
 		public string Description
 		{
-			get { return "ม็อดภาษาไทย 2 เวอร์ชันคอมมูนิตี้"; }
+			get { return "ม็อดภาษาไทยคอมมูนิตี้"; }
 		}
 
 		public void OnSettingsUI(UIHelperBase helper)
