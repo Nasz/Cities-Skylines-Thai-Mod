@@ -7,8 +7,8 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c0560866087240b3aa9daf0fa6037469)](https://app.codacy.com/gh/Nasz/Cities-Skylines-Thai-Localization-Mod/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Discord](https://img.shields.io/discord/1092697599447932928?label=Discord)](https://discord.gg/HSYPKfdJfr "Cities:Skylines Thai Localization Community")
 
-![image](https://user-images.githubusercontent.com/384751/241568292-4af976af-b2d1-4f23-a51d-d47f62341b66.png)
-![image](https://user-images.githubusercontent.com/384751/228914512-11ed46fa-4a13-46f0-8a9f-07899138f16f.png)
+![image](https://github.com/Nasz/Cities-Skylines-Thai-Localization-Mod/assets/384751/2f1c8f8b-b31e-44e8-951d-2afb30291d43)
+![image](https://github.com/Nasz/Cities-Skylines-Thai-Localization-Mod/assets/384751/e44142aa-ce06-480e-9c4c-49b3a5561538)
 
 ม็อดนี้ใช้หลักการวางไฟล์ th.locale ไว้ในตัวเกม ดังนั้น หากเมื่อไหร่คุณเบื่อภาษาไทย ก็สามารถเปลี่ยนกลับไปใช้ภาษาอื่นได้โดยไม่มีผลกระทบได ๆ ต่อตัวเกม
 
